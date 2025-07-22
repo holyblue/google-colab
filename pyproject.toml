@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "google-colab-project"
+version = "0.1.0"
+description = "Google Colab項目，支援音訊處理和LLM應用"
+authors = ["BruceHo <BruceHo@chailease.com.tw>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+ipykernel = "^6.25.0"
+notebook = "^7.0.0"
+jupyterlab = "^4.0.0"
+
+# 音訊處理相關套件
+librosa = "^0.10.0"
+soundfile = "^0.12.0"
+pydub = "^0.25.0"
+
+# 資料科學常用套件
+numpy = "^1.24.0"
+matplotlib = "^3.7.0"
+pandas = "^2.0.0"
+scipy = "^1.11.0"
+
+# LLM和AI相關套件
+openai = "^1.0.0"
+requests = "^2.31.0"
+
+# 互動式widgets
+ipywidgets = "^8.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.0.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
