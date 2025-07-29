@@ -29,6 +29,7 @@ requests = "^2.31.0"
 
 # 互動式widgets
 ipywidgets = "^8.0.0"
+braintrust = "^0.2.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"
